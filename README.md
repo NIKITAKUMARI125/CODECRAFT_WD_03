@@ -1,10 +1,13 @@
-# 🎮 CodeCraft_WD_03 — Tic-Tac-Toe Web Application
+# 🎮 Tic-Tac-Toe Web App (with Unbeatable AI)
+
 A modern, neon-themed Tic-Tac-Toe game built with **HTML, CSS, and JavaScript** — playable either as 2-player or against an AI opponent powered by the **Minimax algorithm**.
 
-📌 **Task:** Web Development Task-03 — CodeCraft Internship
-🔗 **Live Demo:** _http://127.0.0.1:5501/tic-tac-toe/index.html_
+🔗 **Live Demo:** _add your deployed link here after Step 3 (GitHub Pages / Netlify)_
+
+---
 
 ## ✨ Features
+
 - ✅ **2-Player Mode** — play with a friend on the same device
 - 🤖 **Vs AI Mode** — challenge the computer with 3 difficulty levels:
   - 😴 **Easy** — AI picks random moves
@@ -15,10 +18,9 @@ A modern, neon-themed Tic-Tac-Toe game built with **HTML, CSS, and JavaScript** 
 - 😄 **Emoji Reactions** — dynamic emoji panel reflects the current game state (turn, thinking, win, draw)
 - 🎨 **Custom Neon UI** — glowing panels, custom background image, responsive grid layout
 - 🏆 **Winning Cell Highlight** — winning combination glows/pulses when a player wins
-- 🔊 **Sound Effects** — click, win, and draw sounds generated live via the Web Audio API
-- 🎵 **Background Music** — toggle-able looping music track
 
 ---
+
 ## 🛠️ Tech Stack
 
 - **HTML5** — page structure
@@ -26,13 +28,15 @@ A modern, neon-themed Tic-Tac-Toe game built with **HTML, CSS, and JavaScript** 
 - **JavaScript (Vanilla)** — game logic, state management, Minimax AI algorithm
 
 ---
+
 ## 📂 Project Structure
+
+```
 tic-tac-toe/
 ├── index.html       # Page structure & layout
 ├── style.css         # Styling, animations, background, responsive design
-├── script.js          # Game logic, AI (Minimax), scoring, round handling, sound
-├── background.png    # Background image
-└── music.mp3          # (optional) background music track — add your own
+├── script.js          # Game logic, AI (Minimax), scoring, round handling
+└── background.png    # Background image
 ```
 
 ---
@@ -68,5 +72,7 @@ This is a classic game-theory algorithm and guarantees the AI will never lose �
 - [ ] Rebuild in React as a learning exercise
 
 ---
+
 ## 👤 Author
-Built as **Task 03** for the CodeCraft Web Development internship — feel free to fork, modify, and use for learning.
+
+Built as a personal web development project — feel free to fork, modify, and use for learning.

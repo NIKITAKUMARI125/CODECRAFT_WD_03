@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎮 Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!-- LEFT PANEL: Score / Result / Emoji -->
+    <div class="side-panel left-panel">
+      <h2>📊 Scoreboard</h2>
+      <div class="score-box">
+        <p>❌ Player X: <span id="scoreX">0</span></p>
+        <p>⭕ Player O: <span id="scoreO">0</span></p>
+        <p>🤝 Draws: <span id="scoreDraw">0</span></p>
+      </div>
+
+      <div class="emoji-display" id="emojiDisplay">🤖</div>
+      <div class="emoji-list">
+        <span>🎉</span>
+        <span>🔥</span>
+        <span>✨</span>
+        <span>🏆</span>
+        <span>🚀</span>
+        <span>💡</span>
+      </div>
+
+      <div class="result-box" id="resultBox">
+        🎯 Game in progress...
+      </div>
+    </div>
+
+    <!-- CENTER: Game Board -->
+    <div class="center-panel">
+      <h1>🎮 Tic-Tac-Toe 🎮</h1>
+      <p id="status">Player ❌'s turn</p>
+
+      <div class="board" id="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </div>
+
+      <button id="restartBtn">🔄 Restart Game</button>
+    </div>
+
+    <!-- RIGHT PANEL: Mode Selection -->
+    <div class="side-panel right-panel">
+      <h2>⚙️ Game Mode</h2>
+      <div class="mode-buttons">
+        <button id="pvpBtn" class="mode-btn active">👥 2 Player</button>
+        <button id="aiBtn" class="mode-btn">🤖 Vs AI</button>
+      </div>
+
+      <div class="difficulty-box" id="difficultyBox">
+        <p>🎚️ AI Difficulty</p>
+        <select id="difficultySelect">
+          <option value="easy">😴 Easy</option>
+          <option value="medium">😐 Medium</option>
+          <option value="hard" selected>🔥 Unbeatable</option>
+        </select>
+      </div>
+
+      <div class="round-box">
+        <p>🔁 Round: <span id="roundNum">1</span></p>
+        <p id="starterInfo">🚀 Starts: Player ❌</p>
+      </div>
+
+      <div class="sound-box">
+        <button id="musicBtn" class="mode-btn">🎵 Music: Off</button>
+        <button id="sfxBtn" class="mode-btn active">🔊 SFX: On</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Background music: put your own music.mp3 in this folder -->
+  <audio id="bgMusic" src="music.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
