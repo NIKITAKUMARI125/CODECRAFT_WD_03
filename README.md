@@ -2,7 +2,7 @@
 
 A modern, neon-themed Tic-Tac-Toe game built with **HTML, CSS, and JavaScript** — playable either as 2-player or against an AI opponent powered by the **Minimax algorithm**.
 
-🔗 **Live Demo:** _add your deployed link here after Step 3 (GitHub Pages / Netlify)_
+🔗 **Live Demo:** _add your deployed link here after Step 3 (GitHub Pages / Netlify)_/[file:///C:/Users/sunil/Downloads/tic-tac-toe%20(2)/tic-tac-toe/index.html]
 
 ---
 
